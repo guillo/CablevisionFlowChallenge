@@ -6,16 +6,272 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/Services/APIService.swift"
+            timestampString = "571582566.7319"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "loadCityTempById(Id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "CablevisionFlowChallenge/ViewController.swift"
-            timestampString = "571265064.709358"
+            filePath = "CablevisionFlowChallenge/Services/APIService.swift"
+            timestampString = "571582566.731966"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "26"
-            endingLineNumber = "26"
-            landmarkName = "viewDidLoad()"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "loadCityTempById(Id:completion:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/CoreData/CoreDataService.swift"
+            timestampString = "571582566.732016"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "getCities(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CablevisionFlowChallenge.CoreDataService.getCitiesCheto(completion: (Swift.Array&lt;CablevisionFlowChallenge.CityWeather&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/CoreData/CoreDataService.swift"
+                  timestampString = "571524369.7590441"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "56"
+                  endingLineNumber = "56"
+                  offsetFromSymbolStart = "37">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CablevisionFlowChallenge.CoreDataService.getCitiesCheto(completion: (Swift.Array&lt;CablevisionFlowChallenge.CityWeather&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/CoreData/CoreDataService.swift"
+                  timestampString = "571524369.762115"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "60"
+                  endingLineNumber = "60"
+                  offsetFromSymbolStart = "33">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/Services/APIService.swift"
+            timestampString = "571582566.732061"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "CablevisionFlowChallenge.APIService.loadJson(completion: (Swift.Array&lt;CablevisionFlowChallenge.City&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/Services/APIService.swift"
+                  timestampString = "571524369.7704901"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "18"
+                  endingLineNumber = "18"
+                  offsetFromSymbolStart = "449">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CablevisionFlowChallenge.APIService.loadJson(completion: (Swift.Array&lt;CablevisionFlowChallenge.City&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/Services/APIService.swift"
+                  timestampString = "571524369.775178"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "21"
+                  endingLineNumber = "21"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/Services/APIService.swift"
+            timestampString = "571582566.732103"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "loadJson(completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in CablevisionFlowChallenge.APIService.loadJson(completion: (Swift.Array&lt;CablevisionFlowChallenge.City&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/Services/APIService.swift"
+                  timestampString = "571524369.781473"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "1223">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 () -&gt; () in CablevisionFlowChallenge.APIService.loadJson(completion: (Swift.Array&lt;CablevisionFlowChallenge.City&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/Services/APIService.swift"
+                  timestampString = "571524369.785224"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "30">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/Services/APIService.swift"
+            timestampString = "571582566.732144"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
+            landmarkName = "loadCityTempById(Id:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CablevisionFlowChallenge.APIService.loadCityTempById(Id: Swift.Int32, completion: (__C.NSNumber) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/Services/APIService.swift"
+                  timestampString = "571524369.793339"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "2385">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in CablevisionFlowChallenge.APIService.loadCityTempById(Id: Swift.Int32, completion: (__C.NSNumber) -&gt; ()) -&gt; ()"
+                  moduleName = "CablevisionFlowChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mario.boaglio/Documents/Dev/CablevisionFlowChallenge/CablevisionFlowChallenge/Services/APIService.swift"
+                  timestampString = "571524369.796073"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "62"
+                  endingLineNumber = "62"
+                  offsetFromSymbolStart = "29">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/View Models/WeatherListViewModel.swift"
+            timestampString = "571582566.732187"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "populateWeatherCities()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/View Models/WeatherListViewModel.swift"
+            timestampString = "571582566.732241"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "37"
+            endingLineNumber = "37"
+            landmarkName = "populateWeatherCities()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CablevisionFlowChallenge/CoreData/CoreDataService.swift"
+            timestampString = "571582566.732283"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
+            landmarkName = "getCities(completion:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

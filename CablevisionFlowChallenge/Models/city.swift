@@ -7,8 +7,34 @@
 ////
 //
 
-struct City : Decodable {
-    var id: Int32
-    var name: String
-    var country: String
+import Foundation
+import CoreLocation
+
+class City {
+    var id:Int32!
+    var cityName:String!
+    var country:String!
+    var coord = [String:CLLocationDegrees]()
+    
+    init?(dictionary :JSONDictionary) {
+        guard let cityName = dictionary["name"] as? String,
+            let id = dictionary["id"] as? Int32,
+            let country = dictionary["country"] as? String,
+            let coord = dictionary["coord"] as? [String:CLLocationDegrees]
+        else {
+            return nil
+        }
+        self.id = id
+        self.cityName = cityName
+        self.country = country
+        self.coord = coord
+
+    }
+    
+    init(viewModel:CityViewModel) {
+        self.id = viewModel.id
+        self.cityName = viewModel.cityName
+        self.country = viewModel.country
+        self.coord = viewModel.coord
+    }
 }
